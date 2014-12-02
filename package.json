@@ -1,0 +1,23 @@
+{
+  "name": "chain-smoker",
+  "version": "1.0.0",
+  "description": "Smoke tests a pack a day",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matthew McClure <mmcclure@brightcove.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.9.3",
+    "express": "^4.10.3",
+    "lodash": "^2.4.1",
+    "moment": "^2.8.4",
+    "morgan": "^1.5.0",
+    "nohm": "^0.9.6",
+    "redis": "^0.12.1",
+    "request": "^2.48.0",
+    "shortid": "^2.1.3"
+  }
+}
