@@ -16,6 +16,7 @@
     "lodash": "^2.4.1",
     "moment": "^2.8.4",
     "morgan": "^1.5.0",
+    "node-schedule": "^0.1.13",
     "nohm": "^0.9.6",
     "redis": "^0.12.1",
     "request": "^2.48.0",
