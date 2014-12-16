@@ -40,6 +40,15 @@ Chain Smoker requires [Redis](http://redis.io/).
         neato: true,
         callback_url: 'http://this-hostname/callback/example-callback'
       },
+      assertions: {
+        statusCode: 201
+      },
+      callback_assertions: {
+        job_success: function(req) {
+          return req.body.status === 'success';
+        }
+      },
+      callback_time_limit: 10000,
       external_id: function(req) {
         return req.body.id;
       }
