@@ -1,10 +1,10 @@
 {
   "name": "chain-smoker",
-  "version": "1.0.0",
-  "description": "Smoke tests a pack a day",
+  "version": "0.1.0",
+  "description": "Smokes a suite of tests a day (at least)",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Matthew McClure <mmcclure@brightcove.com>",
