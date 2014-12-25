@@ -1,6 +1,6 @@
 {
   "name": "chain-smoker",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "Smokes a suite of tests a day (at least)",
   "main": "index.js",
   "scripts": {
@@ -21,5 +21,9 @@
     "redis": "^0.12.1",
     "request": "^2.48.0",
     "shortid": "^2.1.3"
+  },
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "mocha": "^2.1.0"
   }
 }
