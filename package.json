@@ -1,6 +1,6 @@
 {
   "name": "chain-smoker",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Smokes a suite of tests a day (at least)",
   "main": "index.js",
   "scripts": {
